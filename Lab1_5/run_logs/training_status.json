@@ -1,0 +1,47 @@
+{
+    "Manipulator": {
+        "checkpoints": [
+            {
+                "steps": 499259,
+                "file_path": "results\\sixthManipulator\\Manipulator\\Manipulator-499259.onnx",
+                "reward": -58.42585426447343,
+                "creation_time": 1705550515.1455,
+                "auxillary_file_paths": [
+                    "results\\sixthManipulator\\Manipulator\\Manipulator-499259.pt"
+                ]
+            },
+            {
+                "steps": 999850,
+                "file_path": "results\\sixthManipulator\\Manipulator\\Manipulator-999850.onnx",
+                "reward": -36.46677251524395,
+                "creation_time": 1705550942.9844673,
+                "auxillary_file_paths": [
+                    "results\\sixthManipulator\\Manipulator\\Manipulator-999850.pt"
+                ]
+            },
+            {
+                "steps": 1000850,
+                "file_path": "results\\sixthManipulator\\Manipulator\\Manipulator-1000850.onnx",
+                "reward": -39.465439345468496,
+                "creation_time": 1705550943.074495,
+                "auxillary_file_paths": [
+                    "results\\sixthManipulator\\Manipulator\\Manipulator-1000850.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000850,
+            "file_path": "results\\sixthManipulator\\Manipulator.onnx",
+            "reward": -39.465439345468496,
+            "creation_time": 1705550943.074495,
+            "auxillary_file_paths": [
+                "results\\sixthManipulator\\Manipulator\\Manipulator-1000850.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.1.1+cu121"
+    }
+}
